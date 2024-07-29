@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+    <title>Jgodo Baseado em Textos</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="section-inicio">
+            <img class="robo-inicio" src="./img/Robo.gif" title="Olá, eu sou o Byte" alt="Byte">
+            <div class="falas-robo">
+                <div class="falas-robo">
+                    <p class="fl hidden" id="FalaOla"></p>
+                    <p class="fl hidden" id="FalaHistoria"></p>
+                    <p class="fl hidden" id="FalaMotivacional"></p>
+                </div>
+            </div>
+        </section>
+        <section class="section-valores hidden">
+            <div class="valor">
+                <img src="./img/Pixel.png" alt="" class="pixel" id="pixel-tesouro">
+                <img src="./img/valorTesouro/sprite_00.png" alt="Tesouro" title="Tesouro" class="img-valor"  id="valor-tesouro">
+            </div>
+            <div class="valor">
+                <img src="./img/Pixel.png" alt="" class="pixel" id="pixel-povo">
+                <img src="./img/valorPovo/sprite_00.png" alt="" title="Amor do Povo" class="img-valor"   id="valor-povo">
+            </div>
+            <div class="valor">
+                <img src="./img/Pixel.png" alt="" class="pixel" id="pixel-clero">
+                <img src="./img/valorClero/sprite_00.png" alt="" title="Poder do Clero" class="img-valor"   id="valor-clero">
+            </div>
+            <div class="valor">
+                <img src="./img/Pixel.png" alt="" class="pixel" id="pixel-exercito">
+                <img src="./img/valorExercito/sprite_00.png" alt="" title="Poder do Exército" class="img-valor"   id="valor-exercito">
+            </div>
+        </section>
+        <section class="section-cenario hidden">
+            <div class="carta inicial">
+                <div class="box-img">
+                    <img src="./img/Robo.gif" title="Olá, eu sou o Byte" alt="Byte">
+                </div>
+                <div class="content-text">
+                    <p class="cenario" id="historia-cenario">Você é o rei de uma próspera província situada no coração do antigo Egito, no ano
+                        de 1750 A.C.
+                    </p>
+                    <p class="cenario">
+                        Sua terra é conhecida por suas riquezas e seu povo leal. O objetivo do seu reinado é garantir
+                        que seu reino não caia em desgraça. Para isso, você deve equilibrar quatro valores fundamentais:
+                    </p>
+                        <div class="text-valores">
+                            <p>Tesouro</p>
+                            <p>Amor do Povo</p>
+                            <p>Poder do Clero</p>
+                            <p>Poder do Exército</p>
+                        </div>
+
+                    <p class="cenario">
+                        Se qualquer um desses valores atingir níveis
+                        máximos ou mínimos, seu reinado estará condenado. Portanto, tome suas decisões com cautela e
+                        sabedoria, pois
+                        o destino do seu reino está em suas mãos.
+                    </p>
+                </div>
+                <div class="btn-iniciar">
+                    <button type="button" id="btn-iniciar">Iniciar</button>
+                </div>
+            </div>
+        </section>
+        
+        <div id="mudar-cenario">
+        </div>
+        
+        <section class="section-decisoes hidden">
+            <div class="carta inicial" id="carta">
+                <div class="box-img">
+                    <img src="" id="img-personagem" alt="">
+                </div>
+                <p class="nome-person">Cesar, o monge</p>
+                <div class="content-text">
+                    <p id="pergunta">
+                    </p>
+                </div>
+                <div class="btns-decidir">
+                    <button type="button" id="btn-nao">Não</button>
+                    <button type="button"  id="btn-sim">Sim</button>
+                </div>
+                <div class="btns-decidir">
+                    <button type="button" id="btn-oque-esq" class="hidden">O que?</button>
+                    <button type="button"  id="btn-oque-dir" class="hidden">O que?</button>
+                </div>
+                <div class="btns-decidir">
+                    <button type="button" id="btn-jogar-novamenteN" class="hidden">Não</button>
+                    <button type="button"  id="btn-jogar-novamenteS" class="hidden">Sim</button>
+                </div>
+                <div class="btns-decidir">
+                    <button type="button" id="btn-continuar" class="hidden">Prosseguir</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

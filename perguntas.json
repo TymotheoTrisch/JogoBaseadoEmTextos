@@ -1,0 +1,1465 @@
+{
+    "perguntas_bonus": [
+    {
+      "id": 1,
+      "personagem": "bonus",
+      "bonus": "O valor do amor do povo aumenta.",
+      "pergunta": "Um mago realiza um ritual para proteger o seu reino. Você permite?",
+      "impacto_sim": {
+        "tesouro": 0,
+        "amor_do_povo": 2,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": -2,
+        "poder_do_clero": -1,
+        "poder_do_exercito": 0
+      }
+    },
+    {
+      "id": 2,
+      "personagem": "bonus",
+      "bonus": "O poder do exercito aumenta.",
+      "pergunta": "Um alquimista oferece uma poção para fortalecer seu exército. Você aceita?",
+      "impacto_sim": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 2
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": -1
+      }
+    },
+    {
+      "id": 3,
+      "personagem": "bonus",
+      "bonus": "O poder do clero aumenta.",
+      "pergunta": "Um eremita revela o segredo para a longevidade dos governantes. Você o ouve?",
+      "impacto_sim": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": 2,
+        "poder_do_exercito": 0
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": -1,
+        "poder_do_exercito": 0
+      }
+    },
+    {
+      "id": 4,
+      "personagem": "bonus",
+      "bonus": "O amor do povo aumenta.",
+      "pergunta": "Um visionário afirma que pode parar com a doença no reino. Você aceita a cura dele?",
+      "impacto_sim": {
+        "tesouro": 0,
+        "amor_do_povo": 2,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": -1,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0
+      }
+    }
+  ],
+    
+    
+    
+    
+  "perguntas_misteriosas": [
+    {
+      "id": 1,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um viajante oferece um mapa do tesouro em troca de algumas moedas. Você aceita?",
+      "impacto_sim": {
+        "tesouro": 2,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0,
+        "final" : {
+          "fala": "O mapa era falso e o tesouro não existe. Seu reino perde recursos preciosos e acaba levando seu reino à ruína.",
+          "bonus": "DERROTA"
+        }
+      },
+      "impacto_nao": {
+        "tesouro": -1,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0
+      }
+    },
+    {
+      "id": 2,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um mercador oferece uma relíquia sagrada em troca de sua proteção. Você aceita?",
+      "impacto_sim": {
+        "tesouro": -2,
+        "amor_do_povo": 0,
+        "poder_do_clero": 2,
+        "poder_do_exercito": -1,
+        "final": {
+          "fala": "A relíquia era amaldiçoada. Seu reino é devastado por desastres. Você falhou como rei miseravelmente.",
+          "bonus": "DERROTA"
+        }
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": -1,
+        "poder_do_exercito": 1
+      }
+    },
+    {
+      "id": 3,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um feiticeiro oferece um encantamento para proteger o reino de invasões. Você aceita?",
+      "impacto_sim": {
+        "tesouro": -1,
+        "amor_do_povo": 1,
+        "poder_do_clero": 1,
+        "poder_do_exercito": 1,
+        "final": {
+          "fala": "O encantamento falhou e deixou seu reino vulnerável, outros reinos do leste aroveitaram e invadiram seu território. Você falhou como rei miseravelmente.",
+          "bonus": "DERROTA"
+        }
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": -1,
+        "poder_do_clero": -1,
+        "poder_do_exercito": -1
+      }
+    },
+    {
+      "id": 4,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um monge nômade oferece suas orações para abençoar suas colheitas. Você aceita?",
+      "impacto_sim": {
+        "tesouro": 0,
+        "amor_do_povo": 2,
+        "poder_do_clero": 1,
+        "poder_do_exercito": 0,
+        "final": {
+          "fala": "As colheitas foram abençoadas, mas o monge trouxe doenças ao reino, causando uma revolta do povo. Você falhou como rei miseravelmente.",
+          "bonus": "DERROTA"
+        }
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": -1,
+        "poder_do_clero": -1,
+        "poder_do_exercito": 0
+      }
+    },
+    {
+      "id": 5,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um cavaleiro errante oferece seus serviços em troca de abrigo. Você aceita?",
+      "impacto_sim": {
+        "tesouro": -1,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 2,
+        "final": {
+          "fala": "O cavaleiro era um traidor, acabou pervertendo o seu exército e assim provocando uma revolta interna que resultou em uma guerra contra os nobres e o próprio rei. A estabilidade do seu reino foi comprometida e a revolta levou a uma série de conflitos que devastaram suas terras e recursos. Você falhou como rei miseravelmente.",
+          "bonus": "DERROTA"
+        } 
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": -1
+      }
+    },
+    
+    
+    
+    
+    
+    {
+      "id": 6,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um viajante misterioso oferece um mapa para um tesouro escondido. Você aceita?",
+      "impacto_sim": {
+        "tesouro": 2,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0,
+        "final": {
+          "fala": "O mapa era verdadeiro e você encontrou um grande tesouro!",
+          "bonus": "O tesouro aumenta consideravelmente."
+        } 
+      },
+      "impacto_nao": {
+        "tesouro": -1,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0
+      }
+    },
+    {
+      "id": 7,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um sábio errante oferece um elixir da sabedoria. Você aceita?",
+      "impacto_sim": {
+        "tesouro": -1,
+        "amor_do_povo": 1,
+        "poder_do_clero": 1,
+        "poder_do_exercito": 0,
+        "final": {
+          "fala": "O elixir funcionou, trazendo paz e prosperidade ao reino.",
+          "bonus": "Amor do povo e o poder do clero aumentou consideravelmente."
+        }
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": -1,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0
+      }
+    },
+    {
+      "id": 8,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um alquimista oferece transformar ferro em ouro para fortalecer seu tesouro. Você aceita?",
+      "impacto_sim": {
+        "tesouro": 2,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 0,
+        "final": {
+          "fala": "O alquimista teve sucesso e encheu os cofres do reino.",
+          "bonus": "Tesouro aumenta consideravelmente."
+        }
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": -1
+      }
+    },
+    {
+      "id": 9,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um mago oferece lançar um feitiço para proteger seu reino. Você aceita?",
+      "impacto_sim": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": 0,
+        "poder_do_exercito": 2,
+        "final": {
+          "fala": "O feitiço funcionou, fortalecendo as defesas do reino.",
+          "bonus": "Poder do exército aumenta consideravelmente."
+        }
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": -1,
+        "poder_do_clero": -1,
+        "poder_do_exercito": -1
+      }
+    },
+    {
+      "id": 10,
+      "personagem": "Pessoa_misteriosa",
+      "nome": "pessoa misteriosa",
+      "pergunta": "Um antigo manuscrito sagrado é oferecido ao reino em troca de uma grande soma. Você aceita?",
+      "impacto_sim": {
+        "tesouro": -2,
+        "amor_do_povo": 0,
+        "poder_do_clero": 2,
+        "poder_do_exercito": 0,
+        "final": {
+          "fala": "O manuscrito trouxe grande respeito ao clero.",
+          "bonus": "Poder do clero aumenta consideravelmente."
+        }
+      },
+      "impacto_nao": {
+        "tesouro": 0,
+        "amor_do_povo": 0,
+        "poder_do_clero": -1,
+        "poder_do_exercito": 0
+      }
+    }
+  ],
+  
+  
+  
+  
+  
+  
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Um comerciante oferece uma oferta imperdível para um grande lote de grãos. Você aceita investir no negócio?",
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 2,
+        "pergunta": "Um líder local pede ajuda para reforçar suas defesas contra invasores. Você concorda em fornecer suporte militar?",
+        "personagem": "Soldado",
+        "nome": "Alexandre, o lider militar",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 2
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -1
+        }
+      },
+      {
+        "id": 3,
+        "pergunta": "Um novo templo é proposto para melhorar a moral do povo. Você decide financiar a construção?",
+        "personagem": "Informante",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 2,
+          "poder_do_clero": 2,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -2,
+          "poder_do_clero": -1,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 4,
+        "pergunta": "Você descobre uma mina de prata em uma das suas terras. Você decide investir na extração e melhoria da mina?",
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "impacto_sim": {
+          "tesouro": 3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 5,
+        "pergunta": "Um grupo de mercenários oferece seus serviços para proteger o reino. Você os contrata?",
+        "personagem": "Soldado",
+        "nome": "Alexandre, o lider militar",
+        "impacto_sim": {
+          "tesouro": -5,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 3
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -1
+        }
+      },
+      {
+        "id": 6,
+        "pergunta": "Um diplomata estrangeiro oferece um acordo comercial vantajoso. Você aceita o acordo?",
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "impacto_sim": {
+          "tesouro": 2,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 7,
+        "pergunta": "Uma seca ameaça a colheita. Você decide oferecer ajuda aos agricultores?",
+        "personagem": "Informante",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 8,
+        "pergunta": "O clero pede um aumento no orçamento para realizar festividades religiosas. Você concede o aumento?",
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 3,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": -2,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 9,
+        "pergunta": "Há rumores de uma invasão iminente. Você ordena a construção de fortificações?",
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 4
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -3
+        }
+      },
+      {
+        "id": 10,
+        "pergunta": "Oh meu rei, uma epidemia atingiu uma parte do vosso reino. Você aceita que nós financiemos um tratamento médico para os necessitados?",
+        "personagem": "viajante",
+        "nome": "Ana, a viajante",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -4,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 11,
+        "pergunta": "Meu rei, um novo sistema de impostos é proposto para aumentar a arrecadação. Você o implementa?",
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "impacto_sim": {
+          "tesouro": 4,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 12,
+        "pergunta": "Um grupo de embaixadores estrangeiros pede um tratado de paz. Você concorda em negociar?",
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "impacto_sim": {
+          "tesouro": -1,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 1
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -2
+        }
+      },
+      {
+        "id": 13,
+        "pergunta": "Você recebe uma proposta para construir uma escola que visa melhorar a educação no reino. Você decide investir?",
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 14,
+        "personagem": "Viajante",
+        "nome": "Ana, a viajante",
+        "pergunta": "Um famoso artista oferece fazer uma grande obra de arte para embelezar a cidade. Você aceita a proposta?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 15,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Há uma proposta para construir uma nova estrada que aumentará o comércio. Você aprova o projeto?",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 16,
+        "personagem": "Agricultor",
+        "nome": "José, o agricultor",
+        "pergunta": "Um inventor propõe um novo sistema de irrigação para aumentar a produção agrícola. Você investe no projeto?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 17,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Um grupo de refugiados pede asilo no seu reino. Você aceita acolhê-los?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 18,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Os comerciantes locais pedem a redução de impostos. Você aceita diminuir as taxas?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 19,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Um nobre influente sugere organizar um grande festival para aumentar o moral do povo. Você concorda?",
+        "impacto_sim": {
+          "tesouro": -5,
+          "amor_do_povo": 3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 20,
+        "personagem": "Agricultor",
+        "nome": "José, o agricultor",
+        "pergunta": "Um grupo de pesquisadores pede financiamento para estudar novos métodos agrícolas. Você aprova o financiamento?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 21,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Um grupo de mercenários oferece um empréstimo para expandir o comércio. Você aceita o empréstimo?",
+        "impacto_sim": {
+          "tesouro": 2,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -1
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 1
+        }
+      },
+      {
+        "id": 22,
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "pergunta": "O clero sugere realizar uma cerimônia para atrair boas colheitas. Você aprova a cerimônia?",
+        "impacto_sim": {
+          "tesouro": -1,
+          "amor_do_povo": 0,
+          "poder_do_clero": 2,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": -1,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 23,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Há uma revolta de camponeses devido a altos impostos. Você decide reduzir os impostos?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 24,
+        "personagem": "Soldado",
+        "nome": "Alexandre, o lider militar",
+        "pergunta": "Um antigo aliado oferece apoio militar em troca de favores. Você aceita a oferta?",
+        "impacto_sim": {
+          "tesouro": -1,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 2
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -1
+        }
+      },
+      {
+        "id": 25,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Meu rei. Descobri uma possível rota comercial que poderia enriquecer o reino. Você permita que nós exploremos?",
+        "impacto_sim": {
+          "tesouro": 3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": -1,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 26,
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "pergunta": "Um sábio oferece conselhos valiosos para a administração do reino. Você decide pagar por suas orientações?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 0,
+          "poder_do_clero": 1,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": -1,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 27,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Um diplomata estrangeiro oferece uma aliança estratégica em troca de um tributo. Você aceita a aliança?",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 2
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -2
+        }
+      },
+      {
+        "id": 28,
+        "personagem": "Viajante",
+        "nome": "Ana, a viajante",
+        "pergunta": "Um grupo de artesãos pede ajuda para criar obras públicas que beneficiarão o reino. Você concorda em ajudar?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 29,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Você descobre que há uma greve entre os trabalhadores das minas. Você decide negociar um acordo para resolver o conflito?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 30,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Uma festa popular está sendo planejada para celebrar o sucesso do reino. Você decide financiar o evento?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 31,
+        "personagem": "Informante",
+        "pergunta": "Um novo movimento cultural surge e propõe mudanças nas tradições. Você decide apoiar o movimento?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 2,
+          "poder_do_clero": -1,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 1,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 32,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Um diplomata de uma nação vizinha oferece um tratado de comércio que pode beneficiar ambos os reinos. Você aceita?",
+        "impacto_sim": {
+          "tesouro": 3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 33,
+        "personagem": "Medico",
+        "nome": "Carlos, o médico",
+        "pergunta": "Há uma epidemia que está começando a se espalhar pelo reino. Você decide criar um fundo para pesquisa e tratamento?",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 34,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Um grupo de inventores propõe um novo projeto para melhorar a infraestrutura do reino. Você decide financiar o projeto?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 35,
+        "personagem": "Viajante",
+        "nome": "Ana, a viajante",
+        "pergunta": "Há uma crise de alimentos no reino vizinho. Você decide enviar ajuda alimentar?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 36,
+        "personagem": "Soldado",
+        "nome": "Alexandre, o lider militar",
+        "pergunta": "Um líder militar pede mais recursos para treinar suas tropas. Você concorda em fornecer mais recursos?",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 3
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -2
+        }
+      },
+      {
+        "id": 37,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Um novo grupo de mercadores oferece produtos exóticos e caros. Você decide gastar parte do tesouro com esses produtos?",
+        "impacto_sim": {
+          "tesouro": -5,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 38,
+        "personagem": "Soldado",
+        "nome": "Alexandre, o lider militar",
+        "pergunta": "Você ouve rumores de uma revolta iminente em uma das províncias. Você decide enviar uma missão diplomática para resolver a situação?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -2
+        }
+      },
+      {
+        "id": 39,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Um novo sistema de impostos é proposto para aumentar a arrecadação do reino. Você decide implementá-lo?",
+        "impacto_sim": {
+          "tesouro": 3,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 40,
+        "personagem": "Agricultor",
+        "nome": "José, o agricultor",
+        "pergunta": "Um mestre construtor oferece melhorar a infraestrutura das cidades. Você decide investir no projeto?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 41,
+        "personagem": "Agricultor",
+        "nome": "José, o agricultor",
+        "pergunta": "Um grupo de exploradores descobriu uma rota marítima que pode trazer grandes riquezas. Você decide financiar a exploração?",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 42,
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "pergunta": "Um novo líder religioso solicita um aumento na contribuição do reino para suas causas. Você concede o aumento?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 0,
+          "poder_do_clero": 3,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": -2,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 43,
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "pergunta": "Um famoso alquimista afirma ter descoberto uma nova fórmula para transformar chumbo em ouro. Você decide financiar suas pesquisas?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 44,
+        "personagem": "Soldado",
+        "nome": "Alexandre, o lider militar",
+        "pergunta": "O líder de uma tribo vizinha pede uma aliança para proteger seu povo de invasores. Você aceita a aliança?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 2
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -1
+        }
+      },
+      {
+        "id": 45,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Há rumores de que um dos seus conselheiros está conspirando contra você. Você decide investigar?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 1
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -2
+        }
+      },
+      {
+        "id": 46,
+        "personagem": "Medico",
+        "nome": "Carlos, o médico",
+        "pergunta": "Uma nova doença misteriosa está se espalhando. Você decide impor uma quarentena rigorosa?",
+        "impacto_sim": {
+          "tesouro": -1,
+          "amor_do_povo": -2,
+          "poder_do_clero": 1,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": 0,
+          "poder_do_clero": -1,
+          "poder_do_exercito": -1
+        }
+      },
+      {
+        "id": 47,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Um comerciante rico oferece um grande empréstimo a juros baixos. Você aceita a oferta?",
+        "impacto_sim": {
+          "tesouro": 3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 48,
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "pergunta": "Um profeta diz que uma grande catástrofe está prestes a acontecer e pede que você prepare o reino. Você segue seu conselho?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 2,
+          "poder_do_exercito": 1
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": 0,
+          "poder_do_clero": -2,
+          "poder_do_exercito": -1
+        }
+      },
+      {
+        "id": 49,
+        "personagem": "Banqueiro",
+        "nome": "Joaquim, o banqueiro",
+        "pergunta": "Você recebe uma proposta para construir um novo porto para melhorar o comércio. Você decide investir?",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 50,
+        "personagem": "Viajante",
+        "nome": "Ana, a viajante",
+        "pergunta": "Um grupo de poetas pede apoio financeiro para organizar um festival literário. Você decide financiar o evento?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 51,
+        "personagem": "Agricultor",
+        "nome": "José, o agricultor",
+        "pergunta": "Uma praga destruiu as colheitas de uma província. Você decide enviar ajuda alimentar?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 52,
+        "personagem": "Agricultor",
+        "nome": "José, o agricultor",
+        "pergunta": "Um cientista afirma ter descoberto uma maneira de melhorar a fertilidade do solo. Você financia suas pesquisas?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 53,
+        "personagem": "Viajante",
+        "nome": "Ana, a viajante",
+        "pergunta": "Você é convidado para um casamento real em um reino distante. Você decide participar, apesar dos custos?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 54,
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "pergunta": "Uma seita religiosa está crescendo em influência. Você decide suprimir o movimento?",
+        "impacto_sim": {
+          "tesouro": -1,
+          "amor_do_povo": -2,
+          "poder_do_clero": 2,
+          "poder_do_exercito": 1
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": 1,
+          "poder_do_clero": -1,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 55,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Um explorador relata a descoberta de terras ricas em recursos. Você decide financiar uma expedição para colonizar essas terras?",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 2
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 56,
+        "personagem": "Agricultor",
+        "nome": "José, o agricultor",
+        "pergunta": "Um inventor propõe uma nova tecnologia de irrigação para aumentar a produção agrícola. Você decide financiar o projeto?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 57,
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "pergunta": "Há um movimento para construir um novo templo em homenagem aos deuses antigos. Você apoia a construção?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 0,
+          "poder_do_clero": 2,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": -2,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 58,
+        "personagem": "Soldado",
+        "nome": "Alexandre, o lider militar",
+        "pergunta": "Um grupo de mercenários oferece seus serviços para proteger o reino de invasores. Você decide contratá-los?",
+        "impacto_sim": {
+          "tesouro": -3,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 2
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": 0,
+          "poder_do_clero": 0,
+          "poder_do_exercito": -2
+        }
+      },
+      {
+        "id": 59,
+        "personagem": "Clero",
+        "nome": "Cesar, o monge",
+        "pergunta": "Uma nova teoria científica sugere que a Terra é redonda. Você decide apoiar a disseminação dessa ideia?",
+        "impacto_sim": {
+          "tesouro": -1,
+          "amor_do_povo": 1,
+          "poder_do_clero": -2,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 1,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 60,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Um grupo de artistas itinerantes pede permissão para realizar apresentações nas praças do reino. Você permite?",
+        "impacto_sim": {
+          "tesouro": -1,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 61,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Um antigo artefato sagrado foi descoberto nas ruínas de um templo. Você decide financiar sua restauração?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 0,
+          "poder_do_clero": 2,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": 0,
+          "poder_do_clero": -1,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 62,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Um renomado arquiteto oferece seus serviços para construir uma grande catedral. Você aceita sua proposta?",
+        "impacto_sim": {
+          "tesouro": -4,
+          "amor_do_povo": 1,
+          "poder_do_clero": 3,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -1,
+          "poder_do_clero": -2,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 63,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Um grupo de pescadores reclama de uma nova taxa imposta sobre suas capturas. Você decide abolir a taxa?",
+        "impacto_sim": {
+          "tesouro": -1,
+          "amor_do_povo": 2,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 0,
+          "amor_do_povo": -3,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        }
+      },
+      {
+        "id": 64,
+        "personagem": "Informante",
+        "nome": "Joana, a informante",
+        "pergunta": "Um famoso pintor deseja fazer um retrato seu para imortalizá-lo. Você aceita a oferta?",
+        "impacto_sim": {
+          "tesouro": -2,
+          "amor_do_povo": 1,
+          "poder_do_clero": 0,
+          "poder_do_exercito": 0
+        },
+        "impacto_nao": {
+          "tesouro": 1,
+          "amor_do_povo": -2,
+          "poder_do_clero": 1,
+          "poder_do_exercito": 0
+        }
+      }
+    ]
+  }
+  
