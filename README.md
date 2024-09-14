@@ -17,11 +17,11 @@ Não há dependências externas necessárias.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/jogo-baseado-em-textos.git
+   git clone https://github.com/TymotheoTrisch/JogoBaseadoEmTextos.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd jogo-baseado-em-textos
+   cd JogoBaseadoEmTextos
    ```
 3. Abra o arquivo `index.html` diretamente no seu navegador.
 
